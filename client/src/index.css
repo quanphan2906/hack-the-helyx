@@ -1,0 +1,31 @@
+body {
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto",
+        "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans",
+        "Helvetica Neue", sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+/* font-family: 'Comic Neue', cursive; */
+/* font-family: 'Pacifico', cursive; */
+
+code {
+    font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+        monospace;
+}
+
+.nav-wrapper {
+    background-color: #37474f;
+}
+
+.nav-wrapper .nav-container {
+    display: grid;
+    grid-template-columns: 40% 60%;
+    color: white;
+}
+
+.nav-wrapper .nav-container .brand-name {
+    font-family: "Pacifico", cursive;
+    font-size: 24px;
+}
